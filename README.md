@@ -1,6 +1,6 @@
-# 🚗⛽ Gas Station Optimization Problem
+# Gas Station Optimization Problem
 
-This project explores the classic **gas station refueling optimization problem** — the road-trip scenario where you must travel from point A to point B with varying gas prices at different stations and a car with limited tank capacity.
+This project explores the classic **gas station refueling optimization problem**. The road-trip scenario where you must travel from point A to point B with varying gas prices at different stations and a car with limited tank capacity.
 
 The goal? **Minimize the total cost of fuel while reaching your destination.**
 
@@ -20,13 +20,13 @@ This project compares two approaches to solve this problem.
 
 ## Approaches Compared
 
-### 1️⃣ Naive (Brute Force) Approach  
+### 1. Naive (Brute Force) Approach  
 - Tries many possible refueling combinations  
 - Very slow for larger inputs  
 - **Time Complexity:** `O(Δn³)`  
 - Good for understanding, bad for scaling 🐌
 
-### 2️⃣ Optimized Algorithm  
+### 2. Optimized Algorithm  
 Based on the research paper **"To Fill or Not to Fill"**, using two strategic ideas:
 
 1. **Fill up completely** if the next station is more expensive  
@@ -40,9 +40,9 @@ Based on the research paper **"To Fill or Not to Fill"**, using two strategic id
 
 ## What's Inside
 
-- **`optimized.py`** — Implements the fast `O(Δn² log n)` algorithm  
-- **`brutevsoptimized.py`** — Compares naive vs optimized performance  
-- **`*.png`** — Plots showing runtime differences and scalability  
+- **`optimized.py`** :— Implements the fast `O(Δn² log n)` algorithm  
+- **`brutevsoptimized.py`** :— Compares naive vs optimized performance  
+- **`*.png`** :— Plots showing runtime differences and scalability  
 
 ---
 
