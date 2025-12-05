@@ -24,7 +24,7 @@ This project compares two approaches to solve this problem.
 - Tries many possible refueling combinations  
 - Very slow for larger inputs  
 - **Time Complexity:** `O(Δn³)`  
-- Good for understanding, bad for scaling 🐌
+- Good for understanding, bad for scaling.
 
 ### 2. Optimized Algorithm  
 Based on the research paper **"To Fill or Not to Fill"**, using two strategic ideas:
@@ -34,7 +34,7 @@ Based on the research paper **"To Fill or Not to Fill"**, using two strategic id
 
 - Much faster  
 - **Time Complexity:** `O(Δn² log n)`  
-- Efficient even with many stations 🚀
+- Efficient even with many stations.
 
 ---
 
